@@ -1,5 +1,5 @@
 # K-means-Algorithm
-In this code I have tried to implement the basic k-means algorithm. 
+This code tries to implement the basic k-means algorithm. 
 
 ## Overview 
 K-means is one of the most important clustering algorithm in unsupervised learning. Given a data set we can find the clusters of points which have almost equal distance to a common point. This common point is called the centroid of a cluster. So given a dataset we find out the optimal number of clusters and a set of centroids, each centroid is associated with a cluster. Every point in the cluster has the minimum distance with it's respective centroid as compared to all other centroids. 
@@ -9,8 +9,8 @@ K-means is one of the most important clustering algorithm in unsupervised learni
 To implement k-means we use the Expectation Maximisation Algorithm also called the EM algorithm . It consists of two simple steps 
 1) Initially guess the number of clusters 
 2) Repeat until converged 
-  + - E-step: assign points to the nearest cluster 
-  + - M-step: set the cluster centres to the mean
+  + E-step: assign points to the nearest cluster 
+  + M-step: set the cluster centres to the mean
 
 Here the "E-step" or "Expectation step" is so-named because it involves updating our expectation of which cluster each point belongs to. The "M-step" or "Maximization step" is so-named because it involves maximizing some fitness function that defines the location of the cluster centers—in this case, that maximization is accomplished by taking a simple mean of the data in each cluster.
 
