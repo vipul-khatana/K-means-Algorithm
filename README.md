@@ -40,7 +40,7 @@ Course project under [**Prof. Jayadeva**](http://jayadeva.net)
 
 ## Contributing
 
-1) Fork it (https://github.com/vipul-khatana/Regression-models/fork)
+1) Fork it (https://github.com/vipul-khatana/K-means-Algorithm/fork)
 2) Create your feature branch `git checkout -b feature/fooBar`
 3) Commit your changes `git commit -am 'Add some fooBar'`
 4) Push to the branch `git push origin feature/fooBar`
