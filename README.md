@@ -29,8 +29,8 @@ Keep your dataset in the same directory in a .csv format. The name of the traini
 
 In the command line run `python k-means.py`. This should output two files : 
 
-+ - 'final_centroid.txt' containing the final centroids of the data set
-+ - "test_predicted_class_label.csv" containing the class label for every point in the data set. 
++ 'final_centroid.txt' containing the final centroids of the data set
++ "test_predicted_class_label.csv" containing the class label for every point in the data set. 
 
 ## Author 
 
