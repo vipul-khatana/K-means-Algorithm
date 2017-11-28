@@ -37,3 +37,11 @@ In the command line run `python k-means.py`. This should output two files :
 * [Vipul Khatana](https://github.com/vipul-khatana)
 
 Course project under [**Prof. Jayadeva**](http://jayadeva.net) 
+
+## Contributing
+
+1) Fork it (https://github.com/vipul-khatana/Regression-models/fork)
+2) Create your feature branch `git checkout -b feature/fooBar`
+3) Commit your changes `git commit -am 'Add some fooBar'`
+4) Push to the branch `git push origin feature/fooBar`
+5) Create a new pull request 
