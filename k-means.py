@@ -1,10 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar  3 11:51:52 2017
+# -*- coding: utf-8 -*
+'''
 
-@author: vipulkhatana
-"""
 
+
+'''
 import csv
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -12,11 +11,13 @@ import math
 import itertools 
 import pandas as pd 
 
+#  Initial centroids 
 def icentroid(X_Matrix, centroid, k, n,p):
     for i in range(k):
         for j in range(2):
             centroid[i,j] = X_Matrix[((k+p*(i))%n),j]
 
+# Initial clusters
 def icluster(X, mnew):
     for i in range (n):
         min = 100000000
@@ -29,6 +30,7 @@ def icluster(X, mnew):
                 mnew[i,j] = 0 
         mnew[i,index] = 1
 
+# execution of the E-M step
 def main(X, mold, mnew) : 
     for iteration in range (500) : 
         check = True
@@ -63,6 +65,7 @@ def main(X, mold, mnew) :
                             mnew[i,j] = 0 
                     mnew[i,index] = 1
 
+# cost function
 def cost(X): 
     cost = 0
     for i in range (k):
@@ -70,7 +73,8 @@ def cost(X):
             if (mnew[j,i] == 1):
                 dist = np.linalg.norm(X[j]-c[i])
                 cost = cost + dist*dist 
-                
+
+
 def label(X, mnew, lab):
     #lab = np.zeros((1,n),dtype=float)
     for j in range (k): 
