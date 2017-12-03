@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*
-'''
+# Created on Tue Mar 22 11:32:46 2016
+# @author: vipulkhatana 
 
-
-
-'''
 import csv
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -74,7 +72,7 @@ def cost(X):
                 dist = np.linalg.norm(X[j]-c[i])
                 cost = cost + dist*dist 
 
-
+# assign labels
 def label(X, mnew, lab):
     #lab = np.zeros((1,n),dtype=float)
     for j in range (k): 
