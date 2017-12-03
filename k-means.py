@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*
-# Created on Tue Mar 22 11:32:46 2016
+# Created on Tue Mar 2 2016
 # @author: vipulkhatana 
 
 import csv
